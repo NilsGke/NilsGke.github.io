@@ -1,35 +1,4 @@
 {
-    "Hobbies": {
-        "parent": null,
-        "user": []
-    },
-    "Crafts": {
-        "parent": "Hobbies"
-    },
-    "Sewing": {
-        "parent": "Crafts",
-        "user": []
-    },
-    "Stiching": {
-        "parent": "Crafts",
-        "user": []
-    },
-    "Sports": {
-        "parent": "Hobbies",
-        "user": []
-    },
-    "Football": {
-        "parent": "Sports",
-        "user": []
-    },
-    "Basketball": {
-        "parent": "Sports",
-        "user": []
-    },
-    "Baseball": {
-        "parent": "Sports",
-        "user": []
-    },
     "Top-Kreis": {
         "parent": null,
         "user": [],
@@ -105,20 +74,6 @@
         ],
         "connectedTo": [
             "Top-Kreis"
-        ]
-    },
-    "t": {
-        "parent": null,
-        "user": [
-            "l",
-            "m"
-        ]
-    },
-    "s": {
-        "parent": null,
-        "user": [
-            "l",
-            "m"
         ]
     }
 }
