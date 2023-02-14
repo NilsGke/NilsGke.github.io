@@ -1,0 +1,149 @@
+{
+    "video games": {
+        "parent": null,
+        "user": []
+    },
+    "shooters": {
+        "parent": "video games"
+    },
+    "creative": {
+        "parent": "video games",
+        "user": []
+    },
+    "Minecraft": {
+        "parent": "creative",
+        "user": []
+    },
+    "Terraria": {
+        "parent": "creative",
+        "user": []
+    },
+    "Battle Royale": {
+        "parent": "shooters",
+        "user": []
+    },
+    "Round based": {
+        "parent": "shooters",
+        "user": []
+    },
+    "valorant": {
+        "parent": "Round based",
+        "user": []
+    },
+    "Counter Strike": {
+        "parent": "Round based",
+        "user": []
+    },
+    "CS": {
+        "parent": "Counter Strike",
+        "user": []
+    },
+    "Condition Zero": {
+        "parent": "Counter Strike",
+        "user": []
+    },
+    "Source": {
+        "parent": "Counter Strike",
+        "user": []
+    },
+    "Global Offense": {
+        "parent": "Counter Strike",
+        "user": []
+    },
+    "Valorant Champions": {
+        "parent": null,
+        "users": []
+    },
+    "Controllers": {
+        "parent": "Valorant Champions",
+        "users": []
+    },
+    "Brimstone": {
+        "parent": "Controllers",
+        "users": []
+    },
+    "Viper": {
+        "parent": "Controllers",
+        "users": []
+    },
+    "Omen": {
+        "parent": "Controllers",
+        "users": []
+    },
+    "Astra": {
+        "parent": "Controllers",
+        "users": []
+    },
+    "Duelists": {
+        "parent": "Valorant Champions",
+        "users": []
+    },
+    "Pheonix": {
+        "parent": "Duelists",
+        "users": []
+    },
+    "Jett": {
+        "parent": "Duelists",
+        "users": []
+    },
+    "Reyna": {
+        "parent": "Duelists",
+        "users": []
+    },
+    "Raze": {
+        "parent": "Duelists",
+        "users": []
+    },
+    "Yoru": {
+        "parent": "Duelists",
+        "users": []
+    },
+    "Neon": {
+        "parent": "Duelists",
+        "users": []
+    },
+    "Initiators": {
+        "parent": "Valorant Champions",
+        "users": []
+    },
+    "Sova": {
+        "parent": "Initiators",
+        "users": []
+    },
+    "Breach": {
+        "parent": "Initiators",
+        "users": []
+    },
+    "Skye": {
+        "parent": "Initiators",
+        "users": []
+    },
+    "Kay/o": {
+        "parent": "Initiators",
+        "users": []
+    },
+    "Fade": {
+        "parent": "Initiators",
+        "users": []
+    },
+    "Sentinels": {
+        "parent": "Valorant Champions",
+        "users": []
+    },
+    "Killjoy": {
+        "parent": "Sentinels",
+        "users": []
+    },
+    "Cypher": {
+        "parent": "Sentinels",
+        "users": []
+    },
+    "Sage": {
+        "parent": "Sentinels",
+        "users": []
+    },
+    "Chamber": {
+        "parent": "Sentinels",
+        "users": []
+    }
+}

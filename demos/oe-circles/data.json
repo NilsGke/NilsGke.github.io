@@ -106,19 +106,5 @@
         "connectedTo": [
             "Top-Kreis"
         ]
-    },
-    "t": {
-        "parent": null,
-        "user": [
-            "l",
-            "m"
-        ]
-    },
-    "s": {
-        "parent": null,
-        "user": [
-            "l",
-            "m"
-        ]
     }
 }
