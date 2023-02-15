@@ -1,78 +1,109 @@
 {
     "Hobbies": {
         "parent": null,
-        "user": []
+        "users": []
     },
     "Crafts": {
         "parent": "Hobbies"
     },
     "Sewing": {
         "parent": "Crafts",
-        "user": []
+        "users": [
+            "Vernon Fields",
+            "Dennis Ford",
+            "Elizabeth Rios"
+        ]
     },
     "Stiching": {
         "parent": "Crafts",
-        "user": []
+        "users": [
+            "Mildred Chapman",
+            "Sean Sparks",
+            "Hallie Romero",
+            "Julia Patterson",
+            "Evelyn Gregory",
+            "Mark Hanson",
+            "Pauline Brooks",
+            "Lucille Lawson",
+            "Pauline Rodgers",
+            "Fanny Guzman",
+            "Theodore Patterson"
+        ]
     },
     "Sports": {
         "parent": "Hobbies",
-        "user": []
+        "users": [
+            "Lucy Chandler"
+        ]
     },
     "Football": {
         "parent": "Sports",
-        "user": []
+        "users": [
+            "Delia Todd",
+            "Mable Burton",
+            "Eunice Brewer"
+        ]
     },
     "Basketball": {
         "parent": "Sports",
-        "user": []
+        "users": [
+            "Dennis Ford",
+            "Dale Brewer"
+        ]
     },
     "Baseball": {
         "parent": "Sports",
-        "user": []
+        "users": [
+            "Elizabeth Rios",
+            "Delia Todd",
+            "Mable Burton"
+        ]
     },
     "Top-Kreis": {
         "parent": null,
-        "user": [],
+        "users": [
+            "Landon Wheeler"
+        ],
         "connectedTo": [
             "Econ"
         ]
     },
     "Strat": {
         "parent": "Top-Kreis",
-        "user": [
-            "a",
-            "b",
-            "c"
+        "users": [
+            "Delia Todd",
+            "Dennis Ford",
+            "Vernon Fields"
         ]
     },
     "Finance": {
         "parent": "Top-Kreis",
-        "user": [
-            "d",
-            "e"
+        "users": [
+            "Dennis Ford",
+            "Vernon Fields"
         ]
     },
     "OE": {
         "parent": "Top-Kreis",
-        "user": [
-            "e",
-            "f"
+        "users": [
+            "Elizabeth Rios",
+            "Delia Todd"
         ]
     },
     "HR": {
         "parent": "Top-Kreis",
-        "user": [
-            "d",
-            "g",
-            "h"
+        "users": [
+            "Elizabeth Rios",
+            "Dale Brewer",
+            "Vernon Fields"
         ]
     },
     "Devs": {
         "parent": null,
-        "user": [
-            "d",
-            "g",
-            "h"
+        "users": [
+            "Elizabeth Rios",
+            "Landon Wheeler",
+            "Mable Burton"
         ],
         "connectedTo": [
             "Sys"
@@ -80,10 +111,9 @@
     },
     "Sys": {
         "parent": null,
-        "user": [
-            "i",
-            "j",
-            "k"
+        "users": [
+            "Dale Brewer",
+            "Landon Wheeler"
         ],
         "connectedTo": [
             "Devs"
@@ -91,17 +121,17 @@
     },
     "K.I.M.": {
         "parent": "Econ",
-        "user": [
-            "d",
-            "g",
-            "e"
+        "users": [
+            "Elizabeth Rios",
+            "Delia Todd",
+            "Mable Burton"
         ]
     },
     "Econ": {
         "parent": null,
-        "user": [
-            "l",
-            "m"
+        "users": [
+            "Elizabeth Rios",
+            "Mable Burton"
         ],
         "connectedTo": [
             "Top-Kreis"
