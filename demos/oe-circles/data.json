@@ -1,12 +1,14 @@
-{
-    "Hobbies": {
-        "parent": null,
+[
+    {
+        "name": "Hobbies",
         "users": []
     },
-    "Crafts": {
+    {
+        "name": "Crafts",
         "parent": "Hobbies"
     },
-    "Sewing": {
+    {
+        "name": "Sewing",
         "parent": "Crafts",
         "users": [
             "Vernon Fields",
@@ -14,7 +16,8 @@
             "Elizabeth Rios"
         ]
     },
-    "Stitching": {
+    {
+        "name": "Stitching",
         "parent": "Crafts",
         "users": [
             "Mildred Chapman",
@@ -30,13 +33,15 @@
             "Theodore Patterson"
         ]
     },
-    "Sports": {
+    {
+        "name": "Sports",
         "parent": "Hobbies",
         "users": [
             "Lucy Chandler"
         ]
     },
-    "Football": {
+    {
+        "name": "Football",
         "parent": "Sports",
         "users": [
             "Delia Todd",
@@ -44,14 +49,16 @@
             "Eunice Brewer"
         ]
     },
-    "Basketball": {
+    {
+        "name": "Basketball",
         "parent": "Sports",
         "users": [
             "Dennis Ford",
             "Dale Brewer"
         ]
     },
-    "Baseball": {
+    {
+        "name": "Baseball",
         "parent": "Sports",
         "users": [
             "Elizabeth Rios",
@@ -59,8 +66,8 @@
             "Mable Burton"
         ]
     },
-    "Top-Kreis": {
-        "parent": null,
+    {
+        "name": "TopKreis",
         "users": [
             "Landon Wheeler"
         ],
@@ -68,38 +75,42 @@
             "Econ"
         ]
     },
-    "Strat": {
-        "parent": "Top-Kreis",
+    {
+        "name": "Strat",
+        "parent": "TopKreis",
         "users": [
             "Delia Todd",
             "Dennis Ford",
             "Vernon Fields"
         ]
     },
-    "Finance": {
-        "parent": "Top-Kreis",
+    {
+        "name": "Finance",
+        "parent": "TopKreis",
         "users": [
             "Dennis Ford",
             "Vernon Fields"
         ]
     },
-    "OE": {
-        "parent": "Top-Kreis",
+    {
+        "name": "OE",
+        "parent": "TopKreis",
         "users": [
             "Elizabeth Rios",
             "Delia Todd"
         ]
     },
-    "HR": {
-        "parent": "Top-Kreis",
+    {
+        "name": "HR",
+        "parent": "TopKreis",
         "users": [
             "Elizabeth Rios",
             "Dale Brewer",
             "Vernon Fields"
         ]
     },
-    "Devs": {
-        "parent": null,
+    {
+        "name": "Devs",
         "users": [
             "Elizabeth Rios",
             "Landon Wheeler",
@@ -109,8 +120,8 @@
             "Sys"
         ]
     },
-    "Sys": {
-        "parent": null,
+    {
+        "name": "Sys",
         "users": [
             "Dale Brewer",
             "Landon Wheeler"
@@ -119,7 +130,8 @@
             "Devs"
         ]
     },
-    "K.I.M.": {
+    {
+        "name": "KIM",
         "parent": "Econ",
         "users": [
             "Elizabeth Rios",
@@ -127,14 +139,14 @@
             "Mable Burton"
         ]
     },
-    "Econ": {
-        "parent": null,
+    {
+        "name": "Econ",
         "users": [
             "Elizabeth Rios",
             "Mable Burton"
         ],
         "connectedTo": [
-            "Top-Kreis"
+            "TopKreis"
         ]
     }
-}
+]
